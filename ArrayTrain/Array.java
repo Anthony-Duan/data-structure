@@ -1,7 +1,7 @@
 package ArrayTrain;
 
 /**
- * @ Description:
+ * @ Description: 实现自己的动态数组
  * @ Date: Created in 14:37 11/07/2018
  * @ Author: Anthony_Duan
  */
@@ -60,6 +60,7 @@ public class Array<E> {
 
     /**
      * 在index索引的位置插入一个新元素e
+     * 如果数组已经满了就扩充数组，新扩充的数组的长度是原来的2倍
      *
      * @param index
      * @param e
@@ -158,6 +159,7 @@ public class Array<E> {
 
     /**
      * 删除指定索引的元素 返回该索引的值
+     * 如果数组中的元素的个数小于数组长度的四分之一就缩短数组长度为原来的二分之一
      *
      * @param index
      * @return
@@ -173,6 +175,10 @@ public class Array<E> {
         size--;
         // loitering objects != memory leak 这里置空后垃圾回收机制会自动回收 否则不会回收 但也不属于内存泄露
         data[size] = null;
+
+        //这里之所以用四分之一是为了做了lazy的处理 避免数组出现复杂度震荡的情况 如果除以2则
+        // removeLast 时 resize 过于着急(Eager) 可能会出现震荡
+
         if (size == data.length / 4 && data.length / 2 != 0) {
             resize(data.length / 2);
         }
