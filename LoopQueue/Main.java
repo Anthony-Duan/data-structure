@@ -24,6 +24,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        //定义多少个操作数
         int opCount = 100000;
         ArrayQueue<Integer> arrayQueue = new ArrayQueue<Integer>();
         double time1 = testQueue(arrayQueue, opCount);
