@@ -1,4 +1,4 @@
-package LinkedListAndRecursion;
+package Recursion.LinkedListAndRecursion;
 
 /**
  * @ Description: 简化版的递归处理

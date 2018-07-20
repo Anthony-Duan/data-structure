@@ -1,4 +1,4 @@
-package LinkedListStack;
+package LinkedList.LinkedListStack;
 
 /**
  * @ Description:带虚拟节点的链表

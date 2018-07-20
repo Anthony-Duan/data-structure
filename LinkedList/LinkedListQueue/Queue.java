@@ -1,4 +1,4 @@
-package LinkedListQueue;
+package LinkedList.LinkedListQueue;
 
 /**
  * @ Description: Queue接口

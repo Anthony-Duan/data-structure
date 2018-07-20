@@ -1,4 +1,4 @@
-package Arrays.ArrayStack;
+package StacksAndQueues.ArrayStack;
 
 /**
  * @ Description: 自己编写的动态数组

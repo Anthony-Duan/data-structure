@@ -1,4 +1,4 @@
-package LinkedListAndRecursion;
+package Recursion.LinkedListAndRecursion;
 
 /**
  * @ Description: 使用递归解决删除链表中的某个元素

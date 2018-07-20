@@ -1,4 +1,4 @@
-package Arrays.ArrayTrain;
+package Arrays;
 
 /**
  * @ Description: 实现自己的动态数组

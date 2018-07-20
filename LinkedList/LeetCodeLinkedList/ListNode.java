@@ -1,4 +1,4 @@
-package LeetCodeLinkedList;
+package LinkedList.LeetCodeLinkedList;
 
 /**
  * @ Description:

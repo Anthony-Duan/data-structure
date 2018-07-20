@@ -1,4 +1,4 @@
-package DebugRecursiveSolution;
+package Recursion.DebugRecursiveSolution;
 
 /**
  * @ Description:

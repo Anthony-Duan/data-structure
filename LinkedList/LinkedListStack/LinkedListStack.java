@@ -1,4 +1,4 @@
-package LinkedListStack;
+package LinkedList.LinkedListStack;
 
 /**
  * @ Description: 使用链表实现栈

@@ -1,4 +1,4 @@
-package LinkedListStack;
+package LinkedList.LinkedListStack;
 
 /**
  * @ Description: Stack接口 标准的栈应该具有以下5个对外方法

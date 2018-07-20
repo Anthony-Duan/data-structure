@@ -1,4 +1,4 @@
-package Arrays.ArrayStack;
+package StacksAndQueues.ArrayStack;
 
 /**
  * @ Description: 使用Array动态数组类封装而成的栈实现，包括了动态增长与缩减

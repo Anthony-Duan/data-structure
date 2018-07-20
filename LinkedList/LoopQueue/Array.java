@@ -1,4 +1,4 @@
-package LoopQueue;
+package LinkedList.LoopQueue;
 
 /**
  * @ Description: 自己编写的动态数组 作为Queue的底层存储

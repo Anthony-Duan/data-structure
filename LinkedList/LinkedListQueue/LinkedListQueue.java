@@ -1,4 +1,4 @@
-package LinkedListQueue;
+package LinkedList.LinkedListQueue;
 
 /**
  * @ Description: 使用链表实现队列

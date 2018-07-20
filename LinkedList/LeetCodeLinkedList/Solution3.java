@@ -1,4 +1,4 @@
-package LeetCodeLinkedList;
+package LinkedList.LeetCodeLinkedList;
 
 /**
  * @ Description: 使用虚拟头结点循环删除节点 LeetCode 203号问题 链表相关(简化版)

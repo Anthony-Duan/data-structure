@@ -1,4 +1,4 @@
-package Arrays.ArrayStack;
+package StacksAndQueues.ArrayStack;
 
 import java.util.Stack;
 

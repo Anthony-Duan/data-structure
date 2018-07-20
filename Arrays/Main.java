@@ -1,4 +1,4 @@
-package Arrays.ArrayTrain;
+package Arrays;
 
 /**
  * @ Description:
