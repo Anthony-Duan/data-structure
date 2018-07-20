@@ -28,7 +28,7 @@ public class Main {
         int opCount = 100000;
         ArrayQueue<Integer> arrayQueue = new ArrayQueue<Integer>();
         double time1 = testQueue(arrayQueue, opCount);
-        System.out.println("ArrayQueue, time: " + time1 + " s");
+        System.out.println("Arrays.ArrayQueue, time: " + time1 + " s");
 
         LoopQueue<Integer> loopQueue = new LoopQueue<Integer>();
         double time2 = testQueue(loopQueue, opCount);

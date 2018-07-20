@@ -1,4 +1,4 @@
-package ArrayQueue;
+package Arrays.ArrayQueue;
 
 /**
  * @ Description: 利用动态数组作为底层实现队列接口 包括动态增长与缩减

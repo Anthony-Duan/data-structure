@@ -1,7 +1,8 @@
-package ArrayQueue;
+package Arrays.ArrayStack;
 
 /**
- * @ Description: 自己编写的动态数组 作为Queue的底层存储
+ * @ Description: 自己编写的动态数组
+ * 为Stack实现做存储，新增加了两个getFirst与getLast方法
  * @ Date: Created in 14:37 11/07/2018
  * @ Author: Anthony_Duan
  */

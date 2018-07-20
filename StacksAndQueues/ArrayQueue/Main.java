@@ -1,4 +1,4 @@
-package ArrayQueue;
+package Arrays.ArrayQueue;
 
 /**
  * @ Description: ArrayQueue测试类

@@ -1,4 +1,4 @@
-package ArrayQueue;
+package Arrays.ArrayQueue;
 
 /**
  * @ Description: Queue接口

@@ -1,7 +1,7 @@
-package ArrayTrain;
+package Arrays.ArrayQueue;
 
 /**
- * @ Description: 实现自己的动态数组
+ * @ Description: 自己编写的动态数组 作为Queue的底层存储
  * @ Date: Created in 14:37 11/07/2018
  * @ Author: Anthony_Duan
  */
@@ -111,6 +111,24 @@ public class Array<E> {
             return data[index];
         }
 
+    }
+
+    /**
+     * 获得数组中的第一个元素
+     *
+     * @return
+     */
+    public E getFirst() {
+        return get(0);
+    }
+
+    /**
+     * 获取数组中的最后一个元素
+     *
+     * @return
+     */
+    public E getLast() {
+        return get(size - 1);
     }
 
     /**

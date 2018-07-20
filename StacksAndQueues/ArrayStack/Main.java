@@ -1,7 +1,7 @@
-package ArrayStack;
+package Arrays.ArrayStack;
 
 /**
- * @ Description: ArrayStack 测试类
+ * @ Description: Arrays.ArrayStack 测试类
  * @ Date: Created in 19:13 11/07/2018
  * @ Author: Anthony_Duan
  */

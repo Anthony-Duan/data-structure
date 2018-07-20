@@ -1,4 +1,4 @@
-package ArrayTrain;
+package Arrays.ArrayTrain;
 
 /**
  * @ Description:
@@ -17,7 +17,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "ArrayTrain.Student{" +
+        return "Arrays.ArrayTrain.Student{" +
                 "name='" + name + '\'' +
                 ", score=" + score +
                 '}';
