@@ -1,4 +1,4 @@
-package BinarySearchTree;
+package SetBasicsAndBSTSet;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -30,6 +30,10 @@ public class BST<E extends Comparable<E>> {
         size = 0;
     }
 
+
+    public int size() {
+        return size;
+    }
 
     public boolean isEmpty() {
         return size == 0;

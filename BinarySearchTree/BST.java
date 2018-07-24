@@ -31,6 +31,10 @@ public class BST<E extends Comparable<E>> {
     }
 
 
+    public int size() {
+        return size;
+    }
+
     public boolean isEmpty() {
         return size == 0;
     }
