@@ -190,7 +190,7 @@ public class BST<E extends Comparable<E>> {
             Node cur = queue.remove();
             System.out.println(cur.e);
             if (cur.left != null) {
-                queue.add(cur);
+                queue.add(cur.left);
             }
             if (cur.right != null) {
                 queue.add(cur.right);
@@ -363,26 +363,24 @@ public class BST<E extends Comparable<E>> {
 
             node.left = node.right = null;
             return successor;
-
-
         }
     }
 
 
-    private void generaterString(Node node, int depth, StringBuilder res) {
+    private void generateString(Node node, int depth, StringBuilder res) {
 
         if (node == null) {
-            res.append(generaterDepthString(depth) + "null\n");
+            res.append(generateDepthString(depth) + "null\n");
             return;
         }
 
 
-        res.append(generaterDepthString(depth) + node.e + "\n");
-        generaterString(node.left, depth + 1, res);
-        generaterString(node.right, depth + 1, res);
+        res.append(generateDepthString(depth) + node.e + "\n");
+        generateString(node.left, depth + 1, res);
+        generateString(node.right, depth + 1, res);
     }
 
-    private String generaterDepthString(int depth) {
+    private String generateDepthString(int depth) {
         StringBuilder res = new StringBuilder();
         for (int i = 0; i < depth; i++) {
             res.append("--");
@@ -393,7 +391,7 @@ public class BST<E extends Comparable<E>> {
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
-        generaterString(root, 0, res);
+        generateString(root, 0, res);
         return res.toString();
     }
 }

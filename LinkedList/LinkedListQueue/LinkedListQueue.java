@@ -49,6 +49,8 @@ public class LinkedListQueue<E> implements Queue<E> {
         return size == 0;
     }
 
+
+    //O(1)
     @Override
     public void enqueue(E e) {
         if (tail == null) {
@@ -61,7 +63,7 @@ public class LinkedListQueue<E> implements Queue<E> {
         size++;
     }
 
-
+    //O(1)
     @Override
     public E dequeue() {
         if (isEmpty()) {

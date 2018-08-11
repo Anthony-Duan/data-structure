@@ -1,7 +1,7 @@
 package Recursion.LinkedListAndRecursion;
 
 /**
- * @ Description: 使用递归解决删除链表中的某个元素
+ * @ Description: 使用递归解决删除链表中的某个元素  LeetCode 203号问题
  * @ Date: Created in 16:32 17/07/2018
  * @ Author: Anthony_Duan
  */

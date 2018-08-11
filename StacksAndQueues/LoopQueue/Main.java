@@ -1,4 +1,4 @@
-package LinkedList.LoopQueue;
+package StacksAndQueues.LoopQueue;
 
 import java.util.Random;
 
@@ -32,7 +32,7 @@ public class Main {
 
         LoopQueue<Integer> loopQueue = new LoopQueue<Integer>();
         double time2 = testQueue(loopQueue, opCount);
-        System.out.println("LinkedList.LoopQueue, time: " + time2 + " s");
+        System.out.println("StacksAndQueues.LoopQueue, time: " + time2 + " s");
 
 
     }

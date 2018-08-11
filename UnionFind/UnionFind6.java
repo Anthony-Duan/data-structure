@@ -20,6 +20,13 @@ public class UnionFind6 implements UF {
         }
     }
 
+    /**
+     * 查找过程, 查找元素p所对应的集合编号
+     * O(h)复杂度, h为树的高度
+     *
+     * @param p
+     * @return
+     */
     private int find(int p) {
         if (p < 0 || p >= parent.length) {
             throw new IllegalArgumentException("p is out of bound.");
@@ -39,11 +46,16 @@ public class UnionFind6 implements UF {
         return parent.length;
     }
 
+
+    // 查看元素p和元素q是否所属一个集合
+    // O(h)复杂度, h为树的高度
     @Override
     public boolean isConnected(int p, int q) {
         return find(p) == find(q);
     }
 
+    // 合并元素p和元素q所属的集合
+    // O(h)复杂度, h为树的高度
     @Override
     public void unionElements(int p, int q) {
 
@@ -53,7 +65,10 @@ public class UnionFind6 implements UF {
             return;
         }
 
-
+        /**
+         * 根据两个元素所在树的元素的个数不同判断合并的方向
+         * 将元素个数少的集合合并到元素个数多的集合上
+         */
         if (rank[pRoot] < rank[qRoot]) {
             parent[pRoot] = qRoot;
         } else if (rank[pRoot] > rank[qRoot]) {

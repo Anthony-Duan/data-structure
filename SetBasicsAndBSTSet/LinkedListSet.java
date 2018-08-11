@@ -18,7 +18,7 @@ public class LinkedListSet<E> implements Set<E> {
         list = new LinkedList<E>();
     }
 
-
+    //O(n)
     @Override
     public void add(E e) {
         if (!list.contains(e)) {
@@ -26,11 +26,13 @@ public class LinkedListSet<E> implements Set<E> {
         }
     }
 
+    //O(n)
     @Override
     public boolean contains(E e) {
         return list.contains(e);
     }
 
+    //O(n)
     @Override
     public void remove(E e) {
         list.removeElement(e);

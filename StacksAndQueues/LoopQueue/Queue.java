@@ -1,4 +1,4 @@
-package LinkedList.LoopQueue;
+package StacksAndQueues.LoopQueue;
 
 /**
  * @ Description:
